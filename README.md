@@ -23,3 +23,8 @@ Industrial-grade project focused on bioinformatics/data engineering hiring signa
 3. Implement minimal vertical slice in src/
 4. Add one integration test in tests/
 5. Add Dockerfile + CI workflow
+
+## MVP Progress
+- Added deterministic parameter fingerprinting (SHA-256).
+- Added manifest builder for pipeline/data/version traceability.
+- Added tests proving fingerprint stability and drift detection.
