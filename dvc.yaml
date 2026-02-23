@@ -1,0 +1,5 @@
+stages:
+  placeholder_stage:
+    cmd: echo "define reproducible stage"
+    outs:
+      - data/processed/.gitkeep
